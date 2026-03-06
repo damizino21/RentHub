@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Registration</title>
+  </head>
+  <body>
+    <nav>
+      <div class="main-Nav">
+        <div class="logo">
+          <a href="#"><img src="image/logo3.png" alt="" /></a>
+        </div>
+
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#eventreg">Event Registration</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section>
+      <form action="" id="eventreg">
+        <fieldset>
+          <legend><strong>Register for RentHub Tech Event</strong></legend>
+
+          <label for="Fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" /><br /><br />
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" /><br /><br />
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" /><br /><br />
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" min="18" max="60" /><br />
+          <!-- T-shirt Size -->
+          <p>T-Shirt Size:</p>
+          <input type="radio" id="small" name="size" value="S" />
+          <label for="small">Small</label><br />
+
+          <input type="radio" id="medium" name="size" value="M" />
+          <label for="medium">Medium</label><br />
+
+          <input type="radio" id="large" name="size" value="L" />
+          <label for="large">Large</label><br />
+
+          <input type="radio" id="xlarge" name="size" value="XL" />
+          <label for="xlarge">XL</label><br /><br />
+
+          <!-- Special Requests -->
+          <label for="message">Special Requests:</label><br />
+          <textarea id="message" name="message" rows="4" cols="40"></textarea
+          ><br /><br />
+
+          <!-- Buttons -->
+          <input type="submit" value="Register" />
+          <input type="reset" value="Clear Form" />
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>
